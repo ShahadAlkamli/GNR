@@ -1,6 +1,6 @@
 # GNR: Genetic-Embedded Nuclear Reaction Optimization for Gene Selection
 
-This repository contains the Python implementation of the GNR algorithm proposed in our paper, along with the benchmark microarray datasets used for evaluation.
+This repository contains the implementation of the **Genetic-Embedded Nuclear Reaction Optimization (GNR)** algorithm, a hybrid metaheuristic approach for gene selection in cancer classification. GNR integrates the exploration strengths of Nuclear Reaction Optimization (NRO) with the exploitation capabilities of a genetic uniform crossover mechanism to identify compact, high-performing gene subsets from high-dimensional microarray data.
 
 ## Contents
 - `GNR.py`: Full code for preprocessing, F-score filtering, and hybrid optimization using NRO with embedded genetic crossover.
